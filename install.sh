@@ -1,6 +1,6 @@
 #! /bin/bash
 
-sudo apt install zsh polybar bspwm git terminator
+sudo apt install zsh polybar bspwm git terminator neofetch
 cp ./.zshrc ~/.zshrc
 git clone https://github.com/dylanaraps/wal
 sudo cp ./wal/wal /usr/bin/wal
