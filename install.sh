@@ -1,6 +1,6 @@
 #! /bin/bash
 
-sudo apt install zsh polybar bspwm git terminator neofetch rxvt-unicode
+sudo apt install zsh polybar bspwm git terminator neofetch rxvt-unicode picom
 cp ./.zshrc ~/.zshrc
 cp ./.Xdefaults ~/.Xdefaults
 git clone https://github.com/dylanaraps/wal
