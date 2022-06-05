@@ -23,7 +23,8 @@ export LS_COLORS
 
 #aliases
 alias clear="clear && neofetch"
-alias ls="ls -a --color"
+alias ls="ls -la --color"
 
 #Keep neofetch at the end
+wal -i Pictures/background.jpeg
 neofetch
