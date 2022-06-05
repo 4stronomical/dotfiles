@@ -26,5 +26,5 @@ alias clear="clear && neofetch"
 alias ls="ls -la --color"
 
 #Keep neofetch at the end
-wal -i Pictures/background.jpeg
+wal -i Pictures/background.jpeg -q
 neofetch
