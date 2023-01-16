@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #Default packages
-sudo apt install zsh polybar bspwm git terminator neofetch rxvt-unicode picom wget ranger feh
+sudo apt -y install bspwm polybar neofetch rxvt-unicode picom wget ranger feh rofi curl wget
 
 #Nala
 echo "deb [arch=amd64,arm64,armhf] http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list
@@ -22,8 +22,8 @@ sudo cp -r sxhkd ~/.config/
 git clone https://github.com/adi1090x/polybar-themes.git
 chmod +x polybar-themes/setup.sh
 
-#Changing shell
-chsh -s $(which zsh)
+#Oh-my-zsh install (original one-liner)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 #Cleanup
 rm -rf ./wal
