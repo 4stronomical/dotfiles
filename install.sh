@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #Default packages
-sudo apt -y install bspwm polybar neofetch rxvt-unicode picom wget ranger feh rofi curl wget btop cava dunst
+sudo apt -y install bspwm polybar neofetch rxvt-unicode picom wget ranger feh rofi curl wget btop cava dunst slock
 
 #Nala
 echo "deb [arch=amd64,arm64,armhf] http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list
