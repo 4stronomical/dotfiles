@@ -21,6 +21,7 @@ sudo cp -r sxhkd ~/.config/
 #Installing polybar-themes
 git clone https://github.com/adi1090x/polybar-themes.git
 chmod +x polybar-themes/setup.sh
+bash polybar-themes/setup.sh
 
 #Oh-my-zsh install (original one-liner)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
