@@ -18,14 +18,9 @@ super + Escape
 super + KP_End
 	firefox
 
-super + KP_Down
-	discord
+super + Backslash
+	rofi -show run
 
-super + KP_Previous
-	terminator i
-
-super + KP_Up
-	code
 #
 #
 #
