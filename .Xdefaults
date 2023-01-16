@@ -1,4 +1,4 @@
 URxvt*scrollBar: False
 URxvt*transparent: True
-URxvt*shading: 25
+URxvt*shading: 20
 URxvt*foreground: White
